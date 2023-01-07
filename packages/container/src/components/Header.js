@@ -81,6 +81,7 @@ export default function Header({ signedIn, onSignOut }) {
           >
             App
           </Typography>
+          <h3> Welcome to Binbin's MFEs Practice project!</h3>
           <Button
             color="primary"
             variant="outlined"

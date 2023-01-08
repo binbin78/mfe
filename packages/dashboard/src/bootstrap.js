@@ -3,6 +3,7 @@ import Dashboard  from './components/Dashboard';
 
 const mount = (el) => {  
    const app = createApp(Dashboard);
+   //this mount is vue itself mount function to add the app to the dom
    app.mount(el);
 }
 
